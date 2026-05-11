@@ -46,6 +46,19 @@ services:
     depends_on:
       - backend
 
+  # apache:
+  #   image: httpd:2.4
+  #   container_name: shopsphere-apache
+
+  #   ports:
+  #     - "80:80"
+
+  #   volumes:
+  #     - ./apache/conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+
+  #   depends_on:
+  #     - backend
+
 volumes:
   postgres-data:
 

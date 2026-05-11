@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "apache": "^0.1.0",
+    "redis": "^5.12.1"
+  }
+}
