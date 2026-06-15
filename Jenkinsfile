@@ -41,7 +41,7 @@ pipeline {
                         }
                     
                         dir('frontend'){
-                            docker_build("shosphere-frontend-beta","${params.FRONTEND_DOCKER_TAG}","mazharalyy")
+                            docker_build("shopsphere-frontend-beta","${params.FRONTEND_DOCKER_TAG}","mazharalyy")
                         }
                 }
             }
